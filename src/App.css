@@ -6,7 +6,7 @@
 
 .content {
   width: 80%;
-  height: 500px;
+  height: 530px;
   border: 1px solid gray;
   display: flex;
 }
@@ -17,6 +17,10 @@
   margin: 10px 0px 10px 10px;
 }
 
+.titleText{
+  margin: 5px 10px;
+}
+
 .blokLeft img {
   height: 400px;
 }
@@ -24,14 +28,67 @@
 .likeBtn {
   display: flex;
   justify-content: center;
+  width: 50%;
+  margin-top: 20px;
 }
 
 .blokRite {
   height: 100%;
+  width: 60%;
   margin: 10px 10px 0px 10px;
 }
 
 .taskPlace {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  word-break: break-all;
+}
+
+.wrappTitle{
+  align-items: center;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+}
+
+.titleBTN{
+  margin-left: 10px;
+border: none;
+background-color: transparent;
+width: 130px;
+}
+.BtnTitleL{
+  background-color: #007397;
+  border: black solid 1px;
+  color:antiquewhite;
+  height: 110%;
+  width: 110%;
+  align-items: center;
+  
+}
+.BtnTitleR{
+  background-color: gray;
+  border: black solid 1px;
+  color:antiquewhite;
+  height: 90%;
+  width: 110%;
+  align-items: center;
+}
+
+.deleteBtn{
+  border: none;
+background-color: transparent;
+height: 10px;
+margin-left: 10px;
+}
+.textTitle{
+  word-break: break-all;
 }
