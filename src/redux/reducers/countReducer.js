@@ -5,6 +5,9 @@ export default function countReducer(state=initialValue, action){
         case 'inc':{
             return state+1
         }
+        case 'dec':{
+            return state-1
+        }
         default: return state
     }
 }

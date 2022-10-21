@@ -1,4 +1,4 @@
-import {incAction} from '../redux/actions/counActions'
+import {incAction, decAction} from '../redux/actions/counActions'
 import {useDispatch,useSelector} from 'react-redux'
 const Likes = () => {
 const dispatch=useDispatch()
@@ -8,7 +8,7 @@ console.log(store)
         <div className='buttonControls'>
             <button onClick={()=>dispatch(incAction())}>♥{store.count}</button>
            
-            <button> Dislike</button>
+            <button onClick={()=>dispatch(decAction())}> Dislike</button>
         </div>
     )
 }
